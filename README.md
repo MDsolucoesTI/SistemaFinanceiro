@@ -6,7 +6,7 @@ Projeto desenvolvido por subcontratação, atendendo demanda de controle e acomp
 Principal diferença nesta versão é a previsão para integração com outros
 sistemas (modulos) planejados.
 
-Banco de Dados utilizado: _DBase_
+Banco de Dados utilizado: _DBase_  
 Utilizado ferramenta de criação de telas e automação de CRUD GasPro versão 3.0
 
 Autor: **Denny Paulista Azevedo Filho**
