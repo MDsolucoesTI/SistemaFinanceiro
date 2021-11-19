@@ -1,0 +1,1858 @@
+\001 AJUDA NŽO DISPONIVEL ------------------------------
+QUEIRA DESCULPAR
+
+    N„o existe texto de ajuda dispon¡vel para a situa‡„o
+em quest„o, por ter sido julgado desnecess rio. Caso te-
+nha dificuldades em prosseguir a opera‡„o, consulte a:
+
+
+             Denny Paulista Azevedo Filho
+             Rua Rebou‡as de Carvalho, 46
+                Taubat‚ - S„o Paulo
+              Tel/Fax: (012) 221-5862
+
+\002 CONFIGURACAO DOS DIRET¢RIOS -----------------------
+CONFIGURA€ŽO DOS DIRET¢RIOS DE TRABALHO
+
+    Sempre que ‚ acionado, o sistema verifica a existˆn-
+cia no drive corrente, do  arquivo de nome ???_TEMP.SYS,
+(??? corresponde  …s trˆs  primeiras  letras do  nome da
+aplica‡„o).     Este arquivo cont‚m as especifica‡”es de
+drives e diret¢rios onde ir„o residir os arquivos de da-
+dos manipulados pela aplica‡„o.   Quando o mesmo n„o for
+encontrado,  o sistema far  uma pausa e pedir  a entrada
+de um drive/diret¢rio para receber esses dados. A infor-
+ma‡„o aqui fornecida ser  gravada no arquivo acima cita-
+do  (desta vez, ser  criado porque  n„o existe), e  ser 
+utilizada nas outras vezes que a aplica‡„o for ativada.
+
+    As informa‡”es de drives/diret¢rios solicitadas s„o:
+
+    . ARQUIVOS DE DADOS
+
+      No diret¢rio  informado para arquivos de dados,  a
+      aplica‡„o armazenar  os arquivos com extens”es DBF
+      (dados) e DBT (texto).
+
+    . ARQUIVOS DE INDICES
+
+      Cada arquivo de dados pode ter um ou mais arquivos
+      de ¡ndices a ele associados. Tamb‚m, nos processos
+      de  filtragem e  ordena‡„o, durante  a opera‡„o da
+      aplica‡„o, s„o criados  outros arquivos de ¡ndices
+      de car ter tempor rio. No diret¢rio informado para
+      ¡ndices, a aplica‡„o colocar  esses arquivos,  que
+      tˆm extens„o NTX.
+
+    . ARQUIVOS DE APOIO A APLICA€ŽO
+
+      ERROS.DBF -     As informa‡”es sobre os  erros que
+      porventura venham a ocorrer durante a opera‡„o  da
+      aplica‡„o, est„o armazenadas em  um arquivo  espe-
+      cial de nome ERROS.DBF. Este arquivo, criptografa-
+      do, cont‚m n„o somente as  causas  dos erros, como
+      tamb‚m as suas poss¡veis solu‡”es.
+
+      PRINTERS.DBF -  Este arquivo cont‚m as informa‡”es
+      das configura‡”es das impressoras mais comuns. Ca-
+      so este arquivo n„o seja  encontrado no  diret¢rio
+      configurado, ser  criado um novo, com  somente uma
+      impressora (default).
+
+      VGALIB.FTS -    Cont‚m as fontes de caracteres pa-
+      ra serem usadas em v¡deo padr„o VGA,  configuradas
+      posteriormente na aplica‡„o, atrav‚s de menu.
+
+     importante lembrar que, sempre que a aplica‡„o n„o
+localizar os arquivos de que necessita,  far   a cria‡„o
+de novos arquivos vazios, ap¢s confirma‡„o.
+
+\003 MENU GERAL DA APLICACAO ---------------------------
+MENU GERAL
+
+    Esta tela se constitui no  MENU GERAL da  aplica‡„o,
+de onde s„o selecionadas todas as fun‡”es e processamen-
+tos dispon¡veis na aplica‡„o.
+
+    Todas as  opera‡”es  podem ser selecionadas por meio
+das  SETAS  CURSORAS  do  teclado do micro, movendo-se a
+barra at‚ a op‡„o  desejada e  pressionando a  tecla Ù.
+Pode-se tamb‚m selecionar quaisquer das op‡”es, pressio-
+nando a sua LETRA INICIAL seguida de Ù.
+
+    Existem algumas teclas de fun‡„o (F1 a F10) que  po-
+dem ser acionadas conforme segue:
+
+    EM QUALQUER SITUA€ŽO
+
+        F1 - mostra esta ajuda (sensitiva ao contexto).
+    ALT-F2 - entrada de comando do DOS (shell)
+             (se houver mem¢ria dispon¡vel)
+        F5 - ativa calend rio do mˆs atual (opcional)
+        F6 - ativa a "pop-calculadora"     (opcional)
+    ALT-F8 - muda posi‡„o,  na tela, de janelas,  menus,
+             mensagens, caixas de di logo, etc.
+    ALT-V  - vˆ relat¢rios que tenham  sido gravados num
+             arquivo em disco.
+    ALT-X  - sai do sistema.
+
+    SOMENTE NO MENU PRINCIPAL
+
+        F2 - troca de usu rio
+
+    SOMENTE DURANTE A DIGITA€ŽO DE REGISTROS
+
+        F3 - liga/desliga a repeti‡„o  autom tica do re-
+             gistro digitado anteriormente.
+        F4 - liga/desliga confirma‡„o de final de campos
+        F8 - executa, para alguns campos, um comando es-
+             pec¡fico que tenha sido definido pelo  pro-
+             jetista da aplica‡„o.
+        F9 - abre janela de consultas a  outros arquivos
+             de dados manipulados pela aplica‡„o.
+
+    ALT-F1 - poder  ser utilizada para ligar e  desligar
+             a ajuda ativa (se tiver sido definida). Com
+             esta ajuda ativa ligada, sempre que o  cur-
+             sor se posicionar em um determinado  campo,
+             uma janela contendo texto de  ajuda se abre
+             automaticamente para orientar a entrada  de
+             dados para aquele campo.
+
+
+    SE MOUSE ESTIVER DISPON¡VEL
+
+    Dentro da aplica‡„o, o funcionamento do mouse tem as
+    seguintes caracter¡sticas:
+
+            a. o bot„o da ESQUERDA serve para selecionar
+            op‡”es, campos e arrastar objetos  (janelas)
+            atrav‚s da tela.
+
+            b. o bot„o do MEIO, se  o mouse conectado  o
+            possuir, n„o tem qualquer finalidade na ope-
+            ra‡„o da aplica‡„o;
+
+            c. em qualquer situa‡„o, o bot„o da  DIREITA
+            funciona  como  se a tecla  ESC tivesse sido
+            pressionada, servindo para cancelar,  retor-
+            nar telas ou abandonar opera‡”es;
+
+
+    Para selecionar uma op‡„o dentro  de um menu,  basta
+    "clicar"  o mouse sobre a  op‡„o desejada e  a barra
+    em reverso ‚ posicionada na op‡„o escolhida.  Um se-
+    gundo "clique" sobre a barra em reverso  selecionar 
+    definitivamente a op‡„o.
+
+    Para cancelar e  retornar … tela  ou menu  anterior,
+    basta "clicar" o bot„o da direita, independentemente
+    de onde o cursor do mouse estiver posicionado.
+
+    Para mudar uma janela de posi‡„o, pressionar o bot„o
+    da esquerda sobre uma das op‡”es (que n„o estiver em
+    reverso,  pois  provocaria a  sua sele‡„o)  e  reter
+    pressionado durante meio segundo.     A partir deste
+    tempo,  pode-se arrastar o  mouse, mantendo o  bot„o
+    pressionado, e escolher o local desejado  para fixar
+    a janela, o que ‚ feito pressionando-se o  bot„o  da
+    direita.
+
+    Sempre que a quantidade de op‡”es em um menu n„o pu-
+    derem  ser exibidas  ao mesmo  tempo na janela,  uma
+    barra de rolagem ‚  criada automaticamente na  borda
+    direita  da  janela mostrando a  posi‡„o relativa  …
+    quantidade total de op‡”es. Aparecem tamb‚m nas par-
+    tes superior e inferior desta barra de rolagem  duas
+    setas  que podem  ser  clicadas   com  o mouse  para
+    provocar a rolagem das op‡”es.
+
+\004 SUBMENUS ------------------------------------------
+MENU INTERMEDIRIO
+
+    Este menu apresenta op‡”es intermedi rias … opera‡„o
+desta aplica‡„o.    Selecione o subsistema, relat¢rio ou
+submenu que desejar.
+
+\005 CADASTRAMENTO -------------------------------------
+    CADASTRAMENTO
+
+    As fun‡”es dispon¡veis neste MENU s„o utilizadas pa-
+ra a manipula‡„o e verifica‡„o dos dados cadastrados:
+
+    INCLUSŽO
+
+    Selecione esta op‡„o sempre que desejar inserir mais
+    informa‡”es no arquivo do subsistema selecionado.
+
+    MANUTEN€ŽO
+
+    Ativando esta op‡„o, o operador ter  acesso a  roti-
+    nas de consulta aos dados cadastrados, podendo alte-
+    rar qualquer informa‡„o, bem como apagar e recuperar
+    registros do arquivo. Poder  tamb‚m fazer  processa-
+    mentos de altera‡”es globais, que atingem  registros
+    agrupados por um determinado crit‚rio de sele‡„o es-
+    tabelecido.
+
+    CONSULTA
+
+    Apresenta uma tela do tipo "view",  com os campos do
+    arquivo dispostos horizontalmente na forma  colunar,
+    permitindo ao operador uma vis„o mais abrangente dos
+    dados, al‚m da montagem de consultas, com inser‡„o e
+    apagamento de colunas, com fun‡”es  de pesquisa, al-
+    tera‡„o, exclus„o, inclus„o e filtragem.
+
+\006 ENTRADA DE DADOS - DIGITACAO ----------------------
+ENTRADA DE DADOS
+
+    A inclus„o  de  novas informa‡”es  nos arquivos est 
+assistida por rotinas especiais que objetivam principal-
+mente a facilidade de opera‡„o e a integridade dos dados
+cadastrados. Existem alguns aspectos interessantes  para
+se conhecer:
+
+    . A cada 20 registros digitados, o arquivo de  dados
+      sofre um processamento especial  (sem que o opera-
+      dor perceba), que garante a integridade  dos dados
+      digitados.  Assim, se ap¢s um tempo muito longo de
+      digita‡„o, ocorrer  alguma  falha de energia,  por
+      exemplo, o m ximo de perda que poder   ocorrer s„o
+      os vinte £ltimos registros digitados.
+
+    . Enquanto estiver sendo digitados registros no  ar-
+      quivo, a aplica‡„o est  constantemente gerenciando
+      o espa‡o dispon¡vel no disco. Caso n„o caibam mais
+      registros no arquivo, o sistema avisar  o operador
+      e anexar  os registros at‚  o  momento  digitados,
+      voltando ao menu.
+
+    . Atrav‚s da tecla F3 o operador  poder    ativar  a
+      repeti‡„o autom tica do registro anteriormente di-
+      gitado. Esta fun‡„o ‚  especialmente  £til  quando
+      se faz digita‡”es de informa‡”es que  podem  estar
+      repetidas em diversos registros, como cidade,  es-
+      tado, etc.  Uma vez que os dados estejam presentes
+      na tela,  basta que  o operador pressione Ù  para
+      aproveitar estes dados. Quando esta fun‡„o n„o for
+      mais desejada, basta pressionar F3 novamente.
+
+    . A tecla F4 serve para ligar e desligar o estado de
+      confirma‡„o da informa‡„o digitada.   Normalmente,
+      quando se digita informa‡”es at‚ o final do campo,
+      o cursor passa automaticamente para o pr¢ximo cam-
+      po,  dispensando o uso da tecla Ù.     Se n„o for
+      desejada esta facilidade,  basta que o operador  a
+      desligue com a tecla F4.
+
+    . A tecla F8 poder  conter um comando especial, para
+      alguns campos, definido pelo projetista da aplica-
+      ‡„o.
+
+    . A tecla F9, se estiver aparecendo na tela, permite
+      o acesso a outros arquivos da aplica‡„o.      Se a
+      aplica‡„o tiver somente um arquivo de dados,  este
+      arquivo ser  mostrado na janela.  Se tiver mais de
+      um arquivo, ser  apresentado um menu, a partir  do
+      qual o operador poder   selecionar o arquivo dese-
+      jado. O acionamento da tecla F9 ativa a rotina que
+      apresenta a tela paginada da aplica‡„o, que ofere-
+      ce um grande leque de opera‡”es sobre os  arquivos
+      de dados. Esta tela ‚ a mesma utilizada pela op‡„o
+      "Consulta", do menu principal da aplica‡„o.
+
+    Durante a digita‡„o de informa‡”es,  diversas teclas
+tˆm fun‡”es especiais para a "navega‡„o" do cursor,  bem
+como para acessar recursos de edi‡„o:
+
+  ^E/   move o cursor para o campo anterior
+  ^X/   move o cursor para o campo seguinte
+  ^D/->  move o cursor uma posi‡„o … direita
+  ^S/<-  move o cursor uma posi‡„o … esquerda
+  ^F     move o cursor para o in¡cio da pr¢xima palavra
+  ^A     move o cursor para o in¡cio da palavra anterior
+  ^T     apaga a palavra … direita do cursor
+  ^Y     apaga o campo, a partir do cursor
+  ^V/INS liga/desliga modo de inser‡„o
+  ^U     restaura o conte£do, descartando a digita‡„o
+  ESC    abandona digita‡„o, sem gravar
+
+\007 MANUTENCAO DE REGISTROS ---------------------------
+MANUTEN€ŽO
+
+    Sempre que for ativada, esta op‡„o coloca na  tela o
+primeiro registro do arquivo,  segundo a ordem estabele-
+cida pela chave do arquivo ¡ndice.
+
+    Se o mouse estiver dispon¡vel:
+
+    Para editar  um campo do  registro na tela,  pode-se
+"clicar" diretamente sobre um campo selecionando-o  para
+edi‡„o.  Ao digitar informa‡”es dentro dos campos, o bo-
+t„o direito do  mouse poder  tamb‚m  ser utilizado  para
+cancelar a edi‡„o ("get").  Sempre que existir setas im-
+pressas  nas bordas das  janelas, bem como  PGUP,  PGDN,
+HOME ou END o mouse pode ser utilizado para fazer a  ro-
+lagem de registros para a frente e para tr s, dependendo
+da seta que for clicada.
+
+    As opera‡”es  de  consulta e altera‡„o dos dados ca-
+dastrados s„o feitas atrav‚s desta tela. Pressionando  a
+tecla F10, um menu de comandos  aparecer  para  permitir
+diversas opera‡”es sobre o arquivo de dados.
+
+    ^PGDN/^PGUP (fim/in¡cio do arquivo)
+
+    Apresenta na tela, respectivamente, o primeiro e £l-
+    timo registro do arquivo, obedecendo  o crit‚rio  de
+    filtragem e ordena‡„o estabelecidos.
+
+
+    PROCURA (acesso indexado)
+
+    Permite a coloca‡„o na tela, de qualquer  um dos re-
+    gistros do arquivo, para ser consultado ou alterado.
+    Esta procura  ‚ sempre  feita atrav‚s das chaves  de
+    acesso de cada um dos conjuntos de pesquisa  estabe-
+    lecidos para a aplica‡„o.  Se houver mais de um con-
+    junto de pesquisa,  um menu ser  apresentado ao ope-
+    rador, de onde poder  escolher a pesquisa  desejada.
+
+    SEGUINTE (acesso sequencial crescente)
+
+    Permite avan‡ar  os  registros sequencialmente, um a
+    um,  at‚  que o final do arquivo seja atingido.   Os
+    registros  v„o  sendo mostrados na tela … medida que
+    s„o acessados.  Esta op‡„o pode tamb‚m ser  acionada
+    pressionando-se a tecla de seta direita.
+
+
+    ANTERIOR (acesso sequencial descrescente)
+
+    Tem funcionamento  idˆntico  … op‡„o anterior, sendo
+    que os  registros s„o retrocedidos  at‚  que  o in¡-
+    cio do arquivo seja atingido. Esta op‡„o pode tamb‚m
+    ser acionada pressionando-se a tecla de seta esquer-
+    da.
+
+
+    MODIFICA
+
+    Permite alterar  quaisquer  informa‡”es do  registro
+    que  esteja  sendo mostrado na tela exceto conte£dos
+    de campos-chaves, caso a chave seja prim ria. Conv‚m
+    lembrar que as novas informa‡”es inseridas est„o su-
+    jeitas …s  mesmas valida‡”es (cr¡ticas/pre-cr¡ticas)
+    estabelecidas para a digita‡„o de registros.
+
+
+    DIGITA
+
+    Esta op‡„o permite a entrada de  informa‡”es no  ca-
+    dastro, sem a necessidade de  voltar ao menu  de in-
+    clus„o. Basta selecionar esta op‡„o  e iniciar a di-
+    gita‡„o de dados.
+
+
+    EXCLUI
+
+    Marca para  apagamento  o registro presente na tela,
+    ap¢s confirma‡„o do usu rio.   Ao abandonar a opera-
+    ‡„o  de  "Altera‡„o" o  operador  poder   selecionar
+    "Apoio" e  apagar definitivamente os registros  mar-
+    cados.      Conforme o ambiente da  aplica‡„o esteja
+    configurado, uma confirma‡„o  poder  ser  solicitada
+    ao usu rio, antes do processo de marca‡„o do  regis-
+    tro.
+
+    RECUPERA
+
+    Desmarca um  registro  previamente marcado para  ser
+    apagado.   Esta  op‡„o funciona somente se os regis-
+    tros n„o tiverem ainda sido definitivamente elimina-
+    dos pelo operador, atrav‚s do menu de "Apoio".
+
+    FILTRA
+
+    Permite o estabelecimento de um crit‚rio para a  se-
+    le‡„o dos registros que ser„o acessados pela consul-
+    ta.
+
+    ORDENA
+
+    Permite o estabelecimento de uma nova ordem de  apa-
+    recimento de registros, durante o processo  de  con-
+    sulta.      Se existir mais de um arquivo de ¡ndice,
+    esses ser„o apresentados em  um menu para que  possa
+    ser selecionado um deles, sen„o,  selecione "* OUTRA
+    ORDEM *" e crie seu pr¢prio crit‚rio de ordena‡„o.
+
+    GLOBAL
+
+    Esta op‡„o   serve  para desencadear certas  rotinas
+    que atingem global ou parcialmente o arquivo.  Com a
+    sua utiliza‡„o,  ‚ poss¡vel alterar,  apagar  ou re-
+    cuperar um grupo de registros que atenda  a  uma de-
+    terminada condi‡„o.     No caso de altera‡„o global,
+    diversos campos  podem ser  selecionados  para serem
+    processados com f¢rmulas definidas pelo usu rio.
+
+TECLA F9
+
+A tecla F9 permite o acesso a outros arquivos da aplica-
+‡„o, caso existam.   Se a aplica‡„o tiver somente um ar-
+quivo de dados, este ser  mostrado na janela.  Se houver
+mais de um arquivo, ser  apresentado um menu,  a  partir
+do qual o operador poder  selecionar o arquivo desejado.
+O acionamento da tecla F9 ativa a rotina que apresenta a
+tela paginada  da aplica‡„o,  oferecendo um grande leque
+de opera‡”es sobre os arquivos de dados.   Esta tela ‚ a
+mesma utilizada na op‡„o "Consulta", do  menu  principal
+da aplica‡„o.
+
+As teclas ^PGUP e ^PGDN servem para exibir  o primeiro e
+o £ltimo registro, respectivamente.
+
+\008 TELA PAGINADA -------------------------------------
+CONSULTA (TELA PAGINADA)
+
+    A partir desta tela, onde as informa‡”es aparecem em
+colunas com seus respectivos t¡tulos,  ‚ poss¡vel execu-
+tar diversas opera‡”es no arquivo corrente.
+
+    Algumas teclas possuem fun‡”es especiais quando ope-
+    rando na tela paginada:
+
+    . setas (para cima e para baixo) movimentam o cursor
+      atrav‚s dos registros do arquivo, um de cada vez.
+
+    . setas (direita/esquerda),  movem o cursor horizon-
+      talmente, campo a campo,  provocando a rolagem  da
+      tela, caso existam mais campos a serem mostrados.
+
+    . PGUP e PGDN,  servem para passar p ginas, isto  ‚,
+      mostrar o grupo de registros seguinte (ou anterior
+      conforme o caso).
+
+    . CTRL+PGUP e CTRL+PGDN, posicionam o cursor no pri-
+      meiro e £ltimo registro do arquivo, respectivamen-
+      te.
+
+    . CTRL+HOME e CTRL+END, posicionam o cursor na  pri-
+      meira e £ltima coluna, respectivamente.
+
+    . Tecla TAB  serve para mudar a dire‡„o que o cursor
+      assume a cada vez que  a tecla Ù  ‚  pressionada.
+      Esta tecla pode ser acionada mesmo durante as  al-
+      tera‡”es dos conte£dos dos campos.
+
+    . Tecla F9, quando estiver aparecendo na tela,  per-
+      mite abrir  outro arquivo para ser consultado,  ou
+      serve para transferir o conte£do de um campo  para
+      outros arquivos de dados.
+
+    . A tecla ALT-F10, quando acionada, serve para alte-
+      rar o estado de apresentar ou n„o os registros que
+      est„o marcados como apagados no arquivo de dados.
+
+    . A tecla ALT-G serve  como "hot-key" para gravar  a
+      situa‡„o atual desta consulta em  um arquivo,  po-
+      dendo posteriormente ser recuperada.
+
+    . A tecla ALT-Z  serve para ampliar a janela da con-
+      sulta, passando a utilizar toda  a  rea dispon¡vel
+      da tela (horizontal e verticalmente) para a  apre-
+      senta‡„o da consulta.
+
+
+      SE O MOUSE ESTIVER DISPON¡VEL,
+
+    . Mouse. Para editar um campo  do registro na  tela,
+      pode-se "clicar" diretamente sobre um  campo  para
+      selecion -lo para edi‡„o.  Um outro "clique" sobre
+      a barra em reverso posicionar  o cursor dentro  do
+      campo, entrando no modo de edi‡„o.  Ao digitar in-
+      forma‡”es  dentro dos campos,  o bot„o direito  do
+      mouse poder  tamb‚m ser utilizado para cancelar  a
+      edi‡„o ("get"). Sempre que existir setas impressas
+      nas bordas das janelas, bem como PGUP, PGDN,  HOME
+      ou END,  o mouse pode ser  utilizado para fazer  a
+      rolagem de  registros para a  frente e para atr s,
+      dependendo da seta que for clicada.
+
+    Al‚m dos controles acima,  existem ainda outras  op-
+    ‡”es acessadas  atrav‚s de menu ativado com  F10, ou
+    atrav‚s da 1¦ letra de cada uma de suas op‡”es.
+
+    . P   posiciona o  cursor sobre qualquer  um dos re-
+          gistros do arquivo, para ser consultado ou al-
+          terado.   Esta pesquisa ‚ sempre feita atrav‚s
+          das chaves de acesso de cada um dos  conjuntos
+          de  pesquisa estabelecidos para  a  aplica‡„o.
+          Caso haja mais de um conjunto de pesquisa,  um
+          menu ser  apresentado, podendo o operador  es-
+          colher o conjunto de pesquisa desejado.
+
+    . F   aciona a rotina de filtragem de registros  que
+          permite a sele‡„o dos registros que far„o par-
+          te da consulta, ou seja,  uma vez estabelecida
+          uma filtragem, somente os registros que  aten-
+          dam a uma determinada condi‡„o aparecer„o den-
+          tro da janela de consulta.
+
+    . D   permite a digita‡„o (inclus„o) de novos regis-
+          tros dentro do arquivo de dados corrente. Esta
+          opera‡„o est  sujeita …s mesmas valida‡”es  ou
+          cr¡ticas estabelecidas para a inclus„o  normal
+          de registros no arquivo de dados,  sendo espe-
+          cialmente  £til para se  inserir registros  em
+          tabelas (outros arquivos onde  informa‡”es di-
+          gitadas s„o validadas).
+
+    . M   permite a altera‡„o  das informa‡”es  contidas
+          no campo onde o cursor estiver posicionado.
+
+    . E   marca  para exclus„o,  o registro que  estiver
+          sendo acessado no momento.  A exclus„o defini-
+          tiva do registro s¢ ‚ feita atrav‚s das  roti-
+          nas  de "Apoio".  Conforme o ambiente da apli-
+          ca‡„o esteja configurado, uma  confirma‡„o po-
+          der  ser solicitada ao usu rio, antes  do pro-
+          cesso de marca‡„o do registro.
+
+    . R   recupera (retira  a marca‡„o) o registro  mar-
+          cado pela op‡„o anterior.
+
+    . V   mostra a tela de  digita‡„o do arquivo corren-
+          te,  com os respectivos  conte£dos de  campos,
+          apenas para consulta.    Se houver mais de uma
+          tela, o operador poder  usar  as teclas PGUP e
+          PGDN para exib¡-las.
+
+    . N   possibilita que uma nova coluna seja criada  e
+          inserida na consulta.  Ao ativar este comando,
+          o operador poder  entrar com  o t¡tulo da nova
+          coluna, o conte£do da mesma,  bem como a  res-
+          pectiva m scara. O conte£do dessas colunas po-
+          de se constituir de campos de outros arquivos,
+          f¢rmulas diversas envolvendo campos, etc.
+
+    . A   permite retirar da consulta,  a coluna onde  o
+          cursor estiver posicionado.
+
+    . I   possibilita a impress„o, em papel, da consulta
+          selecionada.     Todos os campos num‚ricos s„o
+          automaticamente totalizados. Se houver mais de
+          uma janela  aberta (atrav‚s da  tecla J), e  a
+          mesma estiver  relacionada (arquivos sincroni-
+          zados), os registros dessa segunda tela tamb‚m
+          ser„o impressos.
+
+    . O   ordena os registros constantes da consulta, ou
+          seja, possibilita a apresenta‡„o  da  consulta
+          com ordena‡”es por outros campos do arquivo ou
+          por qualquer coluna que tenha sido criada.
+          Mesmo que o  arquivo tenha sido  ordenado,  as
+          pesquisas ao arquivo continuam  a  existir  em
+          fun‡„o dos  campos definidos  nos conjuntos de
+          pesquisa.     Se existir mais de um arquivo de
+          ¡ndice,  esses ser„o  apresentados em um  menu
+          para que possa ser selecionado um  deles,  se-
+          n„o,  selecione "* OUTRA ORDEM *"  e crie  seu
+          pr¢prio crit‚rio de ordena‡„o.
+
+    . Q   quantifica os registros que atendam a uma  de-
+          terminada condi‡„o definida pelo operador.
+
+    . L   localiza determinado registro no arquivo,  por
+          pesquisa sequencial, sempre a partir do regis-
+          tro corrente.   O campo a ser comparado para a
+          pesquisa sequencial, ser  sempre aquele em que
+          o cursor ou barra reversa estiver posicionado.
+          Esta pesquisa ser  feita da seguinte  maneira:
+          se o campo for do tipo caracter ou do tipo me-
+          mo,  o argumento de  pesquisa ser  testado com
+          cl usula  CONTIDO EM  com op‡„o "ignore case",
+          ou  seja,  considera  min£sculas = mai£sculas.
+          Se o  campo n„o for  do tipo caracter, a  pes-
+          quisa ‚ feita atrav‚s de compara‡„o normal.
+
+    . S   continua uma pesquisa  sequencial ao  arquivo,
+          encontrando o registro SEGUINTE, que satisfa‡a
+          a condi‡„o de localiza‡„o (comando L).
+
+    . G   possibilita o processamento global dos  regis-
+          tros que aparecem na consulta.  Este processa-
+          mento pode ser feito para modifica‡”es de cam-
+          pos, apagamento e recupera‡„o de registros.
+
+    . C   "congela" ou fixa as  colunas que est„o …  es-
+          querda do cursor, mantendo-as  na tela,  mesmo
+          que as setas esquerda e direita sejam utiliza-
+          das para "rolagem" horizontal da tela.  Quando
+          colunas s„o "congeladas",  uma barra  vertical
+          mais larga aparece para delimitar as  reas que
+          podem e n„o podem ser roladas.  Quando desejar
+          "descongelar"  colunas, posicione  o cursor na
+          primeira coluna da janela e pressione novamen-
+          te a tecla "C".
+
+    . T   permite altera‡„o do tamanho ou largura de uma
+          coluna de conte£do.
+
+    . J   abre nova janela de consulta ou, se j  existi-
+          rem duas, permite a troca de janela de  opera-
+          ‡„o. Esta op‡„o ‚ muito £til para a visualiza-
+          ‡„o de dois arquivos ao mesmo tempo,  relacio-
+          nados entre si, atrav‚s de um determinado cam-
+          po. Para abrir uma segunda janela,  o operador
+          seleciona atrav‚s de menu, o arquivo que  ser 
+          aberto na mesma e o ¡ndice utilizado para  re-
+          lacionamento. No caso de relacionamento,  deve
+          ser informado ainda o(s) campo(s)  do primeiro
+          arquivo a ser utilizado para sincronizar o se-
+          gundo arquivo.
+
+    . X   exporta os dados constantes  da consulta  para
+          outras aplica‡”es, nos seguintes formatos:
+
+          FORMATO TXT
+
+          Neste formato, normalmente usado por processa-
+          dores de texto,  os dados s„o delimitados  por
+          aspas  e outro caracter  qualquer  (geralmente
+          v¡rgula).     Se for escolhido este formato, o
+          operador poder  informar o delimitador deseja-
+          do para satisfazer o seu processador de texto.
+
+             EX.: "JOAO PEDRO","AV PASSOS,25","572-1111"
+
+          FORMATO SDF
+
+          Neste formato (Standard Data Format ou Formato
+          Padr„o de  Dados),  os dados s„o gravados  sem
+          delimitadores, sendo identificados  apenas pe-
+          los seus tamanhos.   £til para transferir da-
+          dos para serem manipulados por outras  lingua-
+          gens.
+
+             EX.: JOAO PEDROAV PASSOS,255721111
+
+          FORMATO DBF
+
+          Este formato ‚ o mesmo formato que se encontra
+          nos arquivos de dados.  Esta op‡„o ‚ £til para
+          se criar sub-conjuntos de arquivo de dados ma-
+          nipulados pela aplica‡„o.
+
+    . Z   permite a apura‡„o de  um total para a  coluna
+          do cursor, para todos os registros contidos na
+          consulta.     Esta op‡„o se aplica tamb‚m para
+          campos do tipo "caracter", utilizando a fun‡„o
+          VAL() para apurar o se valor num‚rico.
+
+
+    Em ambiente de REDE LOCAL, existem ainda duas teclas
+    (+) e (-)  que  servem para adiantar ou atrasar,  em
+    5 segundos,  o tempo de atualiza‡„o da tela de  con-
+    sulta, ou seja, o tempo utilizado pela aplica‡„o pa-
+    ra fazer o "refresh" da tela, de modo que os  regis-
+    tros digitados ou atualizados pelos outros  usu rios
+    da rede possam aparecer na sua tela de consulta. Es-
+    te tempo ‚ ajustado inicialmente para 25 segundos.
+
+\009 APOIO ---------------------------------------------
+APOIO
+
+    Os processamentos de apoio se constituem de uma  co-
+letƒnea de rotinas especiais elaboradas  para garantir o
+bom funcionamento da aplica‡„o.     Essas rotinas s„o as
+seguintes:
+
+    BACKUP (gera c¢pias de seguran‡a) -  consiste em ga-
+    rantir a integridade dos arquivos de dados,  median-
+    te a confec‡„o de uma c¢pia desses arquivos;
+
+    RESTAURA BACKUP (recupera backup) - ‚ o processo in-
+    verso do 'backup`, ou seja, substitui os arquivos de
+    dados que  porventura  estiverem danificados,  pelas
+    c¢pias de seguran‡a geradas na op‡„o anterior;
+
+    RECONSTR¢I ¡NDICES - refaz os arquivos ¡ndices asso-
+    ciados aos arquivos de dados;
+
+    ELIMINA REGISTROS - efetua a exclus„o f¡sica dos re-
+    gistros marcados para apagamento, durante o  proces-
+    so  de "Manuten‡„o" e "Consulta";
+
+    VE RELAT¢RIOS GRAVADOS - permite  a visualiza‡„o  de
+    um relat¢rio previamente emitido  para v¡deo/arquivo
+    sem a necessidade de reemit¡-lo.
+
+    CONFIGURA AMBIENTE - permite diversas adapta‡”es que
+    modificam o comportamento da aplica‡„o, sob diversos
+    aspectos como cores, impressoras, diret¢rios, etc.;
+
+    OPERA PLANO DE SENHAS - no caso desta aplica‡„o pos-
+    suir um esquema de  seguran‡a por meio de senhas  de
+    acesso, esta op‡„o permite o manuseio do arquivo que
+    controla o plano de senhas.
+
+\010 TABELA EXTERNA VDBF() -----------------------------
+CONSULTA TABELA EXTERNA
+
+    A partir desta tela, onde as informa‡”es aparecem em
+colunas com seus respectivos t¡tulos,  ‚ poss¡vel execu-
+tar diversas opera‡”es  no arquivo  corrente, as  mesmas
+dispon¡veis na op‡„o "Consulta".     Nesta oportunidade,
+destacamos as op‡”es:
+
+    . P   posiciona o  cursor sobre qualquer  um dos re-
+          gistros do arquivo, para ser consultado ou al-
+          terado.   Esta pesquisa ‚ sempre feita atrav‚s
+          das chaves de acesso de cada um dos  conjuntos
+          de  pesquisa estabelecidos para  a  aplica‡„o.
+          Caso haja mais de um conjunto de pesquisa,  um
+          menu ser  apresentado, podendo o operador  es-
+          colher o conjunto de pesquisa desejado.
+
+    . F   aciona a rotina de filtragem de registros  que
+          permite a sele‡„o dos registros que far„o par-
+          te da consulta, ou seja,  uma vez estabelecida
+          uma filtragem, somente os registros que  aten-
+          dam a uma determinada condi‡„o aparecer„o den-
+          tro da janela de consulta.
+
+    . D   permite a digita‡„o (inclus„o) de novos regis-
+          tros dentro do arquivo de dados corrente. Esta
+          opera‡„o est  sujeita …s mesmas valida‡”es  ou
+          cr¡ticas estabelecidas para a inclus„o  normal
+          de registros no arquivo de dados,  sendo espe-
+          cialmente  £til para se  inserir registros  em
+          tabelas (outros arquivos onde  informa‡”es di-
+          gitadas s„o validadas).
+
+    . V   mostra a tela de  digita‡„o do arquivo corren-
+          te,  com os respectivos  conte£dos de  campos,
+          apenas para consulta.    Se houver mais de uma
+          tela, o operador poder  usar  as teclas PGUP e
+          PGDN para exib¡-las.
+
+    . L   localiza determinado registro no arquivo,  por
+          pesquisa sequencial, sempre a partir do regis-
+          tro corrente.   O campo a ser comparado para a
+          pesquisa sequencial, ser  sempre aquele em que
+          o cursor ou barra reversa estiver posicionado.
+          Esta pesquisa ser  feita da seguinte  maneira:
+          se o campo for do tipo caracter ou do tipo me-
+          mo,  o argumento de  pesquisa ser  testado com
+          cl usula  CONTIDO EM  com op‡„o "ignore case",
+          ou  seja,  considera  min£sculas = mai£sculas.
+          Se o  campo n„o for  do tipo caracter, a  pes-
+          quisa ‚ feita atrav‚s de compara‡„o normal.
+
+    A tecla ENTER causa a  transferˆncia  da  informa‡„o
+requisitada para ser colocada no campo em digita‡„o.
+
+\011 MENU RELATORIOS -----------------------------------
+EMISSŽO DE RELAT¢RIOS
+
+    Sempre que um relat¢rio ‚ selecionado, um menu  apa-
+rece, apresentando as diversas op‡”es a selecionar:
+
+    PROSSEGUIR:  deve ser selecionada quando se  desejar
+    iniciar a emiss„o do relat¢rio.
+
+
+    SAIDA: por esta op‡„o pode-se selecionar  o disposi-
+    tivo onde ser  emitido o relat¢rio.  apresentado um
+    menu de onde pode ser selecionada a impressora/porta
+    de sa¡da desejada. Outra op‡„o constante  neste menu
+    ‚ a emiss„o do relat¢rio em arquivo/v¡deo. Entretan-
+    to, deve-se ter o cuidado de configurar primeiramen-
+    te a impressora para uma  eventual impress„o  poste-
+    rior do relat¢rio.
+
+
+    FILTRAR: deve ser selecionada quando for  necess ria
+    a sele‡„o de certo grupo de registros.
+
+
+    C¢PIAS:  permite que se estabele‡a  a quantidade  de
+    c¢pias (ou n£mero de vezes que o relat¢rio ser  emi-
+    tido).
+
+
+    ORDENAR: deve ser selecionada sempre que o relat¢rio
+    tenha de ser apresentado em uma ordem diferente.
+
+
+    T¡TULO: permite a entrada de um t¡tulo opcional para
+    constar no cabe‡alho do relat¢rio a ser emitido.
+
+\012 FILTRAGEM -----------------------------------------
+FILTRAGEM (OU SELE€ŽO DE REGISTROS)
+
+    O processo de filtragem permite a extratifica‡„o dos
+registros de um arquivo, de maneira bem simples.  atra-
+v‚s  da  filtragem que  se consegue "dizer" …  aplica‡„o
+QUAIS OS REGISTROS que dever„o  ser considerados para  a
+opera‡„o selecionada, seja consulta, relat¢rio, etc.  Se
+for desejada uma emiss„o com  TODOS os registros,  basta
+pressionar ESC.
+
+      Existem dois modos de se executar a filtragem  dos
+      registros:
+
+      1. CRITRIO LIVRE - no qual ‚  permitido ao opera-
+         dor entrar livremente com uma express„o conten-
+         do fun‡”es da linguagem usada.  Esta maneira de
+         filtrar registros pode ser selecionada acionan-
+         do-se a primeira op‡„o do menu de filtragem.  
+         IMPORTANTE observar que, para  fazer uso  deste
+         m‚todo, o operador DEVER  CONHECER  a  sintaxe
+         da linguagem usada, para que n„o  ocorram erros
+         durante a execu‡„o (sem consequˆncias). Por is-
+         so, em algumas ocasi”es, dependendo do n¡vel de
+         acesso do usu rio, esta op‡„o poder  n„o  estar
+         figurando no menu.
+
+      2. FILTRAGEM POR MENU  -  atrav‚s de menu pr¢prio,
+         de onde  poder„o ser montados at‚  3 crit‚rios,
+         na seguinte ordem:
+
+
+         CAMPOS DO ARQUIVO
+
+          selecionar o campo objeto da filtragem, ou se-
+          ja, o campo que ir  ser  comparado  com os de-
+          mais parƒmetros a serem fornecidos;
+
+         OPERADORES RELACIONAIS
+
+          selecionar um dos operadores:
+          igual a
+          maior que
+          menor que
+          diferente de
+          etc...
+
+         SEGUNDO OPERANDO
+
+          informar o segundo operando, que representa  a
+          informa‡„o  que  ser  comparada pelo  sistema,
+          para saber se o registro ser  ou  n„o conside-
+          rado. N„o usar aspas.
+
+         OPERADOR L¢GICO
+
+          Se desejar um  segundo crit‚rio de  filtragem,
+          basta selecionar o operador l¢gico (E / OU)  e
+          continuar a montagem do crit‚rio de sele‡„o.
+
+          Quando terminar a montagem do crit‚rio,  basta
+          selecionar "OK!".
+
+\013 ARQUIVO PARA COLOCAR NA JANELA ATIVA --------------
+ARQUIVO PARA TELA ATIVA
+
+    Selecione o arquivo  relacionado para ser colocado e
+consultado na tela. Todas as opera‡”es da consulta ser„o
+v lidas somente no arquivo aqui escolhido.
+
+\014 ORDENACAO -----------------------------------------
+ORDENA€ŽO OU CLASSIFICA€ŽO
+
+    Deste menu pode ser selecionada a ordem que se dese-
+ja para emiss„o/visualiza‡„o das informa‡”es. Para sele-
+cionar uma ordem, basta utilizar  as setas cursoras para
+selecionar o campo desejado e pressionar ENTER em segui-
+da.
+
+    Ap¢s selecionado um campo para definir a  ordena‡„o,
+pode-se  ainda estabelecer se  esta ordem ser  crescente
+ou decrescente em fun‡„o deste campo.     Desta maneira,
+diversos  campos podem  ser escolhidos, cada um com  seu
+m‚todo de classifica‡„o.
+
+    Existe tamb‚m a possibilidade de se utilizar a op‡„o
+de "ordena‡„o livre" para se estabelecer essa ordem.  No
+entanto, ‚ necess rio que o usu rio tenha algum conheci-
+mento de algumas fun‡”es da linguagem Clipper. Por exem-
+plo,  pode-se utilizar esta  op‡„o para estabelecer  uma
+ordena‡„o de registros, pela mesma ordem que foram digi-
+tados, entrando-se com a fun‡„o RECN() do Clipper.
+
+\015 ENTRADA DE SENHA DE ACESSO ------------------------
+  SENHA DE ACESSO
+
+  Esta aplica‡„o est  provida de um esquema de seguran‡a
+para impedir o acesso de pessoas n„o credenciadas.
+
+  A entrada da senha correta permite o acesso do  opera-
+dor ao Sistema, em todos os m¢dulos permitidos pelo  seu
+n¡vel de acesso.
+
+ Ao informar a senha, pode-se pressionar a tecla ESC pa-
+ra recome‡ar uma  informa‡„o que  porventura n„o  esteja
+correta. Se a senha informada for encontrada na lista de
+operadores credenciados,  este operador poder  processar
+a aplica‡„o.
+
+\016 MUDANCA DA SENHA ----------------------------------
+MUDAN€A DE SENHA
+
+      permitido ao operador mudar a sua senha  de aces-
+so  sempre  que  desejar. Para isto, o sistema pedir   a
+digita‡„o da SENHA ATUAL (para  evitar  que  seja mudada
+por outras pessoas) e, em seguida, a NOVA SENHA.
+
+    Ap¢s informada  a  nova  senha,  a anterior n„o mais
+servir   para acessar o Sistema.
+
+\017 MANIPULA SENHAS -----------------------------------
+OPERA COM SENHAS DE ACESSO
+
+    Esta aplica‡„o est   provida de  um plano de  senhas
+com 3 n¡veis para impedir o acesso de operadores  a  al-
+guns de seus m¢dulos.
+
+    Este m¢dulo permite o  credenciamento ou  descreden-
+ciamento de operadores na aplica‡„o, bem como  estabele-
+cer autoriza‡”es, por arquivo,  para cada operador  cre-
+denciado.     A tecla F9 ‚ uma "hot-key" para permitir a
+mudan‡a  da sua  senha (GERENTE),  independentemente  do
+campo em que estiver posicionado.
+
+    As informa‡”es constantes dessa tela s„o:
+
+    OPERADOR
+
+    ‚ o nome do operador credenciado na aplica‡„o;
+
+
+    N
+
+    ‚ o seu n¡vel de acesso na aplica‡„o  (1 = opera‡„o,
+    2 = manuten‡„o e 3 = gerˆncia).
+
+
+    DEMAIS CAMPOS
+
+    Os demais campos dessa tela  se referem  a cada  uma
+    das bases de dados ou arquivos da aplica‡„o.  As in-
+    forma‡”es desses campos correspondem …s  letras ini-
+    ciais  das rotinas abaixo,  que podem  ser cerceadas
+    para o operador.   Por exemplo, para fazer o cercea-
+    mento do operador …s rotinas de digita‡„o, filtragem
+    e modifica‡”es em um determinado arquivo, basta  di-
+    gitar as iniciais:   DFM  no campo correspondente ao
+    arquivo desejado.
+
+    As op‡”es a seguir est„o dispon¡veis nesta tela:
+
+   . FILTRAGEM, serve para a sele‡„o de registros a  se-
+     rem colocados nesta tela de consulta.
+
+   . DIGITA€ŽO,  serve para  o  credenciamento de  novos
+     operadores no Sistema.   Basta que seja informado o
+     seu nome, n¡vel de acesso  a senha  que usar   para
+     acessar a aplica‡„o.
+
+   . MODIFICA, serve para modificar as informa‡”es exis-
+     tentes para os operadores credenciados.
+
+   . EXCLUI, serve para descredenciar um  operador.   a
+     retirada  de um operador da  lista  de pessoas  que
+     podem acessar o Sistema.  Um operador pode ser des-
+     credenciado, por um operador que  tenha n¡vel  "Ge-
+     rˆncia", mesmo que este desconhe‡a a senha de aces-
+     so do operador.
+
+   . RECUPERA, permite desfazer o processo anterior, is-
+     to ‚, recuperar as informa‡”es de um operador, caso
+     seja necess rio.
+
+   . APAGA COLUNA DO CURSOR, serve  para  retirar  desta
+     tela, a coluna onde o cursor est  estacionado.
+
+   . IMPRIME A CONSULTA,  serve para enviar  para a  im-
+     pressora ou disco, o conte£do desta consulta.
+
+   . ORDENA OS REGISTROS, permite a reordena‡„o dos  re-
+     gistros, em fun‡„o de determinado campo escolhido.
+
+   . QUANTIFICA REGISTROS, serve para contar quantos re-
+     gistros est„o fazendo parte desta consulta.
+
+   . LOCALIZA permite a localiza‡„o r pida de um  deter-
+     minado registro de operador.
+
+   . CONGELA/DESCONGELA  colunas, permite  fixar na  te-
+     la as colunas … esquerda do cursor (inclusive) pre-
+     servando-as de serem roladas quando as setas  forem
+     utilizadas para a rolagem horizontal.
+
+   . TAMANHO permite alterar o tamanho da coluna onde  o
+     cursor est  posicionado.
+
+\018 CODIGOS DE IMPRESSORA OUTRAS ----------------------
+C¢DIGOS DE IMPRESSORA
+
+    A configura‡„o de outras impressoras n„o  constantes
+do menu devem ser feitas com a ajuda do manual fornecido
+pelo seu fabricante.
+
+    Algumas impressoras n„o possuem determinados  recur-
+sos. Por exemplo, a orienta‡„o 'landscape` n„o est  dis-
+pon¡vel em impressoras matriciais. Caso a impressora n„o
+possua este  recurso, responda  simplesmente com  ENTER,
+deixando este campo em branco.
+
+    Cuidados especiais  devem ser  tomados com  respeito
+aos c¢digos de enfatiza‡„o, condensa‡„o, etc., de outras
+impressoras. Procure inform -los  corretamente,  segundo
+o manual, para evitar erros durante a emiss„o das infor-
+ma‡”es.
+
+    Normalmente, os manuais  das impressoras  apresentam
+seus c¢digos de recursos de impress„o na linguagem BASIC
+como por exemplo: CHR$(27);"E". No nosso caso, a lingua-
+gem utilizada deve obedecer … sintaxe do CA-Clipper, que
+dispensa o "$" e ainda substitui o ";" por "+".
+
+    No caso de "Tamanho da p gina",  substitua o  n£mero
+que indica a quantidade de linhas na p gina pelas letras
+"NNN".  Mais tarde essas letras  ser„o substitu¡das pelo
+n£mero correspondente. Informe esta configura‡„o somente
+se a impressora que est  sendo  configurada for  do tipo
+matricial. Para as impressoras que tratam formul rios na
+forma de  p ginas (A4, Letter, Legal, etc),  como as  do
+tipo LASER, DESKJET, INKJET, etc, deixe  esta informa‡„o
+EM BRANCO.
+\019 PROCESSO GLOBAL -----------------------------------
+ROTINA DE PROCESSAMENTO GLOBAL
+
+    Esta rotina permite  que se estabele‡a  um processa-
+mento para alterar conte£dos de campos dos registros  de
+todo um arquivo ou de parte dele, bem como a  elimina‡„o
+ou recupera‡„o de registros.
+
+    Todos os registros abrangidos na consulta sofrer„o o
+processamento, por isso, antes de estabelecer um proces-
+samento global, SELECIONE OS REGISTROS atrav‚s da  op‡„o
+de FILTRAGEM (contida no menu).
+
+     bastante recomend vel  executar o procedimento  de
+backup (apoio ao sistema) ANTES de fazer o processamento
+global, evitando assim, perda de informa‡”es no caso  do
+processamento global n„o ter sido estabelecido  correta-
+mente.
+
+    Para  estabelecer  um processamento global, siga  os
+seguintes passos:
+
+    1. escolher o tipo de processamento a ser feito.  Os
+       processamentos poss¡veis s„o:
+          . apagamento
+          . recupera‡„o
+          . modifica‡„o
+
+    2. se escolher modifica‡„o, selecionar tamb‚m o cam-
+       po (ou campos) que sofrer„o a altera‡„o e  infor-
+       mar a express„o que o alterar .   Diversos campos
+       podem ser  escolhidos para  serem processados  de
+       uma s¢ vez.
+
+    3. Informar a seguir, se o caso for modifica‡„o glo-
+       bal,  a express„o  que ir  modificar cada  um dos
+       campos escolhidos.
+
+    4. escolher o modo de fazer o processamento, ou seja
+       no modo autom tico ou de modo confirmado.   Neste
+       caso, o operador poder  ver na tela o registro  a
+       ser alterado e confirmar ou n„o a altera‡„o.
+
+    Se dois arquivos estiverem relacionados,  os proces-
+    samentos que porventura estiverem definidos para es-
+    sas duas bases de dados ser„o executados.
+
+\020 EDICAO DE TEXTO -----------------------------------
+EDI€ŽO DE TEXTO
+
+    At‚ aproximadamente 64.000 caracteres podem ser  di-
+gitados dentro dessa janela. As palavras podem ser acen-
+tuadas pressionando-se  os acentos  seguidos das  vogais
+correspondentes. Os caracteres "€" e "‡" podem ser obti-
+dos digitando-se a v¡rgula seguida de "C" ou "c".
+
+    Diversos controles est„o dispon¡veis para  edi‡„o do
+texto dentro da janela. Nas instru‡”es a seguir,  o s¡m-
+bolo ^ significa a tecla CTRL:
+
+ F8     liga/desliga troca autom tica para pr¢xima linha
+ F10    liga/desliga a rolagem da tela
+ ^E/   move o cursor uma linha acima
+ ^X/   move o cursor uma linha abaixo
+ ^D/->  move o cursor uma posi‡„o … direita
+ ^S/<-  move o cursor uma posi‡„o … esquerda
+ ^W/F7  abandona a edi‡„o e grava o texto digitado
+ ^F     move o cursor para o in¡cio da pr¢xima palavra
+ ^A     move o cursor para o in¡cio da palavra anterior
+ ^T     apaga a palavra … direita do cursor
+ ^Y     apaga a linha onde est  o cursor
+ ^N     insere linha na posi‡„o do cursor
+ ^V/INS liga/desliga o modo de inser‡„o
+ ^I     move o cursor para a pr¢xima tabula‡„o
+ ESC    abandona edi‡„o sem gravar o texto
+ Home   move para o in¡cio da linha
+ ^Home  move para a primeira linha da janela
+ End    move para o final da linha
+ ^End   move para a £ltima linha da janela
+ PgUp   volta uma p gina de texto
+ ^PgUp  move para a primeira linha do texto
+ PgDn   avan‡a uma p gina de texto
+ ^PgDn  move para a £ltima linha do texto
+
+\021 ORDENACAO x FILTRAGEM -----------------------------
+ORDENAR O ARQUIVO
+
+    A execu‡„o da filtragem de registros pela  aplica‡„o
+implica  em um processo  de classifica‡„o (ou ordena‡„o)
+de registros,  processo esse que pode demorar um  pouco,
+dependendo da quantidade de registros no arquivo.
+
+    Se pretender ordenar o arquivo ap¢s ter feito a fil-
+tragem,   ‚ recomend vel selecionar "ORDENAR"  a  partir
+deste menu.   Assim fazendo, a aplica‡„o filtrar  os re-
+gistros e, ao mesmo tempo, os ordenar , evitando a perda
+de tempo executando o mesmo processo depois.
+
+\022 GRAVA CONSULTA ------------------------------------
+GRAVA€ŽO DA CONSULTA EM TELA PAGINADA
+
+    At‚ 58  caracteres  podem  ser  usados para formar a
+frase  que  identificar  a consulta em tela paginada que
+acabou de ser utilizada.   Posteriormente, quando da ne-
+cessidade  de uma nova consulta, a informa‡„o aqui digi-
+tada poder  ser selecionada atrav‚s de um menu, e o sis-
+tema remontar  automaticamente todas as informa‡”es con-
+tidas na tela paginada, como ordena‡„o, filtragem, novas
+colunas, etc.
+
+\023 VE OUTROS ARQUIVOS --------------------------------
+VE OUTROS ARQUIVOS
+
+    Selecione a partir deste menu, o subsistema cujo ar-
+quivo ser  submetido a consulta.    Uma vez escolhido um
+subsistema, estar„o dispon¡veis na tela diversos  recur-
+sos de consulta e manipula‡„o de dados, os mesmos  exis-
+tentes quando da ativa‡„o da op‡„o "Consulta" do menu de
+cadastramentos.
+
+\024 SELECAO DE PESQUISA -------------------------------
+SELE€ŽO DO CONJUNTO DE PESQUISA
+
+    Mais de um conjunto de pesquisa foi estabelecido pa-
+ra este subsistema,  significando que, a partir do  menu
+presente  na tela,  pode-se selecionar qual  conjunto de
+pesquisa a ser utilizado.
+
+\025 PROCURA REGISTRO ----------------------------------
+PROCURA REGISTRO
+
+    Digite a informa‡„o a  ser pesquisada dentro do  ar-
+quivo de dados. A aplica‡„o ir  posicionar na tela o re-
+gistro que contenha nos seus campos chaves, a informa‡„o
+aqui digitada.
+
+\026 CAMPOS DO ARQUIVO PARA ORDENAR --------------------
+CAMPOS DO ARQUIVO
+
+    Atrav‚s deste menu, pode-se visualizar os campos  do
+arquivo corrente. Os nomes entre parˆnteses s„o os nomes
+dos campos identificados internamente dentro do arquivo,
+e s„o os que devem ser mencionados nas express”es a  se-
+rem utilizadas.
+
+    Se preferir,  pressione ENTER  para levar este  nome
+para dentro da express„o que estiver sendo  digitada, na
+posi‡„o do cursor.
+
+\027 SELECAO DE CONSULTA GRAVADA -----------------------
+SELE€ŽO DE CONSULTA
+
+    A  partir deste menu  pode ser selecionada  qualquer
+consulta que tenha  sido gravada anteriormente.    Neste
+caso, as filtragens, ordena‡”es, novas colunas, relacio-
+namentos, etc., estabelecidos no momento da grava‡„o se-
+r„o restabelecidos e considerados na consulta seleciona-
+da.
+
+    Se desejar  iniciar uma nova consulta,  selecione  a
+op‡„o "NOVA CONSULTA".
+
+\028 NOVA COLUNA NA CONSULTA ---------------------------
+CRIA€ŽO DE NOVA COLUNA NA CONSULTA
+
+    Para inserir uma nova coluna na janela de  consulta,
+basta responder algumas perguntas feitas pela aplica‡„o:
+
+    T¡TULO DA NOVA COLUNA
+    Essa informa‡„o servir  para intitular a nova coluna
+    a ser criada na consulta. Forne‡a uma informa‡„o que
+    possa identificar o conte£do da nova coluna que ser 
+    criada. Se desejar criar coluna contendo um campo de
+    outro arquivo de dados, basta pressionar  F10, esco-
+    lher o arquivo desejado e o campo desse arquivo para
+    ser mostrado na nova coluna.
+
+    EXPRESSŽO CONTE£DO
+    Informe uma express„o para aparecer dentro  da  nova
+    coluna. S„o v lidas express”es da  linguagem Clipper
+    bem como nomes de campos. Para obter o nome do campo
+    do arquivo, pressione a tecla F10  e um menu com  os
+    nomes dos campos do arquivo em uso aparecer .
+
+    COM A MSCARA
+    A m scara ‚ um gabarito segundo o qual as express”es
+    s„o mostradas. Alguns exemplos de m scaras:
+
+    !!!          o ponto de exclama‡„o faz com que o ca-
+                 racter mostrado naquela posi‡„o apare‡a
+                 sempre em mai£sculo;
+
+    @!           todos os caracteres dentro do campo se-
+                 r„o transformados para mai£sculo;
+
+    99999999     somente d¡gitos num‚ricos na quantidade
+                 de "9" existentes ser„o mostrados;
+
+    @R 999-9999  @R na m scara faz com que barras,  pon-
+                 tos,  h¡fens ou v¡rgulas sejam apresen-
+                 tados nas posi‡”es, mesmo que n„o exis-
+                 tam no conte£do do campo;
+
+    @E 9,999.99  o @E faz com que a v¡rgula seja  permu-
+                 tada pelo  ponto na separa‡„o das casas
+                 decimais de valores num‚ricos, assumin-
+                 do o formato utilizado no Brasil.
+
+\029 IMPRESSORA OK? ------------------------------------
+IMPRESSORA OK?
+
+    Informa‡”es  est„o prestes a  serem enviadas para  a
+impressora conectada ao microcomputador.
+
+    Verifique se a mesma  est  ligada e "em linha",  bem
+como se est  abastecida com o formul rio cont¡nuo  apro-
+priado. Selecione IMPRESSORA PRONTA,  somente ap¢s fazer
+esta verifica‡„o.
+
+\030 BASES DE DADOS PARA ABRIR JANELA ------------------
+BASES DE DADOS
+
+    Escolha, a partir deste menu,  o arquivo de dados  a
+ser consultado na outra janela. Selecionado esse  arqui-
+vo, existe ainda  a possibilidade do mesmo ser  relacio-
+nado ao primeiro.
+
+\031 RELACIONAMENTO PARA OUTRA JANELA ------------------
+RELACIONAMENTO
+
+    Selecione, a partir deste menu, o campo a ser utili-
+zado para relacionar os dois arquivos.  Por exemplo, en-
+tre um  arquivo de EMPREGADOS e outro de DEPENDENTES,  o
+campo que relacionaria os dois arquivos seria MATR¡CULA.
+
+    Para que exista um relacionamento, o conte£do  deste
+campo  utilizado para "ligar" os  dois arquivos tem que,
+obrigatoriamente, existir nos dois arquivos,  mesmo  que
+o nome do campo seja diferente no outro arquivo, isto ‚,
+os conte£dos dos dois campos (dos dois arquivos) tˆm que
+ser compat¡veis.
+
+    Al‚m do mais, o campo aqui mencionado, tem que ser a
+chave do outro arquivo de dados.
+
+\032 TIPOS DE EXPORTACAO -------------------------------
+EXPORTA€ŽO DE DADOS
+
+    Esta aplica‡„o pode exportar os dados de seus arqui-
+vos, nos trˆs formatos constantes do menu:
+
+    FORMATO TXT
+
+    Neste formato,  normalmente usado por  processadores
+    de texto, os dados s„o delimitados por aspas e outro
+    caracter qualquer (geralmente v¡rgula).   Se for es-
+    colhido este formato,  o operador poder  informar  o
+    delimitador desejado para satisfazer o seu processa-
+    dor de texto.
+
+             EX.: "JOAO PEDRO","AV PASSOS,25","572-1111"
+
+    FORMATO SDF
+
+    Neste formato  (Standard Data Format ou  Formato Pa-
+    dr„o de  Dados), os dados s„o gravados sem delimita-
+    dores, sendo identificados apenas  pelos seus  tama-
+    nhos.   £til para transferir dados para serem mani-
+    pulados por outras linguagens.
+
+             EX.: JOAO PEDROAV PASSOS,255721111
+
+    FORMATO DBF
+
+    Este  formato ‚ o mesmo formato que se encontra  nos
+    arquivos de dados.  Esta op‡„o  ‚ £til para se criar
+    sub-conjuntos de arquivos de dados manipulados  pela
+    aplica‡„o.
+
+     importante lembrar que,  as novas colunas  criadas
+far„o parte do conjunto exportado.   Isto significa que,
+se o formato escolhido for DBF,  um novo arquivo de  da-
+dos (extens„o .DBF)  ser  criado, com  o que estiver es-
+pecificado para a nova coluna existente na consulta.
+
+\033 PEDE NOVO DISQUETE PARA BACKUP --------------------
+    PR¢XIMO DISQUETE
+
+    Selecionar "Prosseguir" ap¢s colocar o pr¢ximo  dis-
+quete de backup no drive solicitado.   Em se tratando de
+recupera‡„o de backup, confira se o disquete a inserir ‚
+o que est  sendo solicitado.
+
+\034 DRIVE DO BACKUP -----------------------------------
+DRIVE DO BACKUP
+
+    Informe uma letra de drive para onde ser   destinada
+a c¢pia "backup" (se for gerar a c¢pia) ou  onde  reside
+a c¢pia do "backup" (no caso de recupera‡„o).
+
+\035 VE REGISTRO NA TELA -------------------------------
+VE TODO O REGISTRO NA TELA
+
+    Esta  op‡„o serve para facilitar  a visualiza‡„o  do
+registro acessado na tela paginada, onde os campos  pre-
+cisam ser "rolados" para serem consultados.        Nesta
+op‡„o, a tela de digita‡„o ‚ utilizada para mostrar  to-
+dos os campos  do registro,  de uma s¢ vez,  a menos que
+tenham sido definidas mais de uma tela de digita‡„o para
+o arquivo acessado. Neste caso, utilize as teclas PGUP e
+PGDN para acessar as demais telas.
+
+\036 LOCALIZA ------------------------------------------
+LOCALIZA REGISTRO
+
+    Localiza determinado registro no arquivo,  por  pes-
+quisa sequencial. O campo a ser comparado para a pesqui-
+sa  sequencial,  ser  sempre aquele em  que o cursor  ou
+barra reversa estiver posicionado.    Esta pesquisa ser 
+feita de uma das duas maneiras seguintes:
+
+    POR ARGUMENTO
+
+    Se o campo for do tipo caracter ou do  tipo memo,  o
+    argumento de pesquisa ser  testado com cl usula CON-
+    TIDO EM, com op‡„o "ignore case", ou seja, considera
+    min£sculas = mai£sculas.  Se o campo n„o for do tipo
+    caracter, a pesquisa  ‚ feita atrav‚s de  compara‡„o
+    normal.
+
+    POR CONDI€ŽO
+
+    Nesta pesquisa, pode-se entrar com uma condi‡„o  es-
+    tabelecida por processo de filtragem de registros, e
+    a aplica‡„o localizar  o primeiro registro que aten-
+    da a essa condi‡„o.
+
+    Uma vez estabelecida uma cl usula de localiza‡„o, em
+qualquer das duas modalidades, a tecla "S" aparecer   no
+menu com a fun‡„o de encontrar o registro SEGUINTE,  que
+satisfa‡a a condi‡„o estabelecida.
+
+\037 PORTA ATIVA DE CONEXAO ----------------------------
+PORTA ATIVA
+
+    Selecione a porta onde a impressora  est   conectada
+no microcomputador. Ap¢s selecionada uma porta, todas as
+sa¡das para a impressora ser„o enviadas para a mesma.
+
+\038 TITULO PARA CONSULTA TELA PAGINADA ----------------
+T¡TULO PARA CONSULTA
+
+    Informe uma frase  para identificar  a consulta  que
+ir  ser impressa. Esta informa‡„o constar  do  cabe‡alho
+do mesmo.
+
+\039 RECONSTR¢I INDICES DOS ARQUIVOS -------------------
+RECONSTR¢I ¡NDICES DOS ARQUIVOS
+
+    Esta op‡„o  serve  para reconstruir o arquivo ¡ndice
+que porventura tenha sido danificado por uma raz„o qual-
+quer, como por exemplo, queda de energia.  Esta opera‡„o
+poder  levar algum tempo para ser completada, dependendo
+da quantidade  de registros  no arquivo.
+
+   Selecione o arquivo cujo ¡ndice deseja recuperar.
+
+\040 ELIMINA REGISTROS ---------------------------------
+ELIMINA REGISTROS
+
+    A opera‡„o de compacta‡„o do arquivo serve para apa-
+gar todos os registros que porventura tenham sido marca-
+dos para exclus„o durante a opera‡„o. Ap¢s esta elimina-
+‡„o, n„o ser  mais poss¡vel a recupera‡„o dos  registros
+marcados, porque os mesmos n„o estar„o mais figurando no
+arquivo de dados.
+
+    Selecione o arquivo do qual  deseja eliminar  regis-
+tros marcados para apagamento.
+
+\041 CONFIGURA O AMBIENTE ------------------------------
+CONFIGURA O AMBIENTE
+
+    Esta op‡„o serve para configurar alguns aspectos re-
+ferentes ao ambiente de opera‡„o da aplica‡„o.   Uma vez
+estabelecidas as configura‡”es, pode-se grav -las em ar-
+quivo para que se tornem permanentes.
+
+    Dentro da  configura‡„o de ambiente, existem  alguns
+indicativos que alteram o funcionamento da aplica‡„o:
+
+    CONFIRMA EM CAMPOS
+
+    Define se  durante as digita‡”es de informa‡”es, ha-
+    ver  um  salto autom tico do  cursor para o  pr¢ximo
+    campo, quando este alcan‡ar a posi‡„o final. Durante
+    a  inclus„o de novos  registros,  esta situa‡„o pode
+    ser alterada com um simples toque na tecla F4.
+
+    CONFIRMA EXCLUS”ES
+
+    Define se  durante o apagamento de registros, dentro
+    dos m¢dulos de altera‡„o, haver  ou n„o uma  confir-
+    ma‡„o do  usu rio,  antes de marcar o  registro para
+    apagamento.
+
+
+    CONFIRMA INCLUS™ES
+
+    Define se  ap¢s a digita‡„o de um registro, uma tela
+    ser  apresentada solicitando uma confirma‡„o para  a
+    inclus„o ou n„o do registro no arquivo de dados.
+
+
+    EXCLUIDOS VISIVEIS
+
+    Define se os registros marcados para exclus„o  deve-
+    r„o ser mostrados nas consultas. Se esta op‡„o esti-
+    ver marcada, esses registros poder„o ser  visualiza-
+    dos, caso contr rio, ficar„o ocultos.
+
+
+    EFEITOS SONOROS
+
+    Define se avisos sonoros ser„o emitidos, para chamar
+    a aten‡„o do operador, durante a opera‡„o da aplica-
+    ‡„o.
+
+
+    AJUDA DE CAMPO ATIVA
+
+    Quando a ajuda de campo estiver ativa, toda vez  que
+    estiver digitando informa‡”es nos arquivos de  dados
+    um texto de ajuda (se tiver sido preparado) aparece-
+    r  em uma janela perto do campo  em digita‡„o,  para
+    orientar a entrada de dados.   Se esta op‡„o estiver
+    desligada, esta ajuda n„o aparecer .  A tecla ALT-F1
+    pode ser utilizada como "hot-key" para ligar e  des-
+    ligar esta op‡„o, de dentro do pr¢prio campo em  di-
+    gita‡„o.
+
+
+    MENUS CENTRALIZADOS
+
+    Se esta op‡„o estiver marcada, as frases dentro  dos
+    menus da aplica‡„o aparecer„o centralizadas na jane-
+    la. Caso contr rio, ser„o alinhadas pela esquerda.
+
+
+    LIGA/DESLIGA MOUSE
+
+    Serve para ligar e desligar a opera‡„o da  aplica‡„o
+    com a utiliza‡„o do mouse. Se estiver desligada, so-
+    mente o teclado estar  dispon¡vel para opera‡„o.
+
+
+    REGULAGEM DA SENSIBILIDADE DO MOUSE, QUANDO EXISTIR
+
+    Para fazer a configura‡„o da sensibilidade do mouse,
+    basta "clicar"  sobre  as setas  esquerda e  direita
+    para mudar os valores da sensibilidade de  movimento
+    vertical e horizontal.  Quanto maior os valores, me-
+    nor a sensibilidade, ou seja, o mouse necessita  ser
+    arrastado um espa‡o maior para movimentar o cursor.
+
+\042 MARCA DA IMPRESSORA -------------------------------
+MARCA DA IMPRESSORA
+
+    Este menu possui as impressoras que est„o conectadas
+no momento, caso haja a necessidade de se ter  uma  con-
+figura‡„o diferente basta selecionar a op‡„o "* NOVA *",
+informando os c¢digos de efeito de  impress„o  solicita-
+dos.
+\043 PANO DE FUNDO -------------------------------------
+PANO DE FUNDO
+
+    Selecione atrav‚s deste menu o caracter a ser utili-
+zado para preencher a tela inicial da aplica‡„o, sobre a
+qual ir„o aparecer as  diversas janelas de menu,  mensa-
+gens e caixas de di logo.
+
+\044 ESQUEMAS DE CORES ---------------------------------
+ESQUEMAS DE CORES
+
+    Permite selecionar um novo esquema  de cor  (frente/
+fundo) para os seguintes objetos:
+
+    PANO DE FUNDO - caracter utilizado para preencher  a
+    tela inicial da aplica‡„o, sobre a qual aparecem  as
+    diversas janelas de menu, mensagens e caixas de di -
+    logo.
+
+    JANELAS - retƒngulos onde aparecem as mensagens  fi-
+    xas da aplica‡„o.   Este esquema  ‚ tamb‚m utilizado
+    para apresentar a primeira janela da op‡„o  "Consul-
+    ta".
+
+    CAIXAS DE DILOGOS - janelas onde as informa‡”es so-
+    licitadas pela aplica‡„o ser„o digitadas pelo opera-
+    dor. Constam de um t¡tulo, mensagem ao operador e um
+    campo onde s„o digitadas as informa‡”es solicitadas.
+    Este esquema  ‚ tamb‚m utilizado  para apresentar  o
+    cabe‡alho e rodap‚ da tela da op‡„o "Consulta".
+
+    AVISOS E ERROS - janelas onde aparecem as  mensagens
+    de erros ou avisos ao  operador, durante  a opera‡„o
+    da aplica‡„o.
+
+    MENUS E CAMPOS - janelas de menus de onde s„o  sele-
+    cionadas  as  op‡”es de opera‡„o, bem como os campos
+    onde s„o digitadas as informa‡”es.
+
+    TELA DE DIGITA€ŽO - ‚ o esquema  de cores  utilizado
+    nas telas onde est„o sendo digitados dados que ser„o
+    gravados nos arquivos de dados, ou ainda, que  este-
+    jam sendo apresentados em uma consulta.
+
+    TELA DE DIGITA€ŽO NŽO ATIVA -  tela  onde n„o  est„o
+    sendo digitados dados, no caso de existir outros ar-
+    quivos relacionados.
+
+    TELA DE AJUDA - tela onde ‚ apresentado  o texto  de
+    ajuda "on-line", sempre que a tecla F1 ‚ acionada.
+
+\045 SENSIBILIDADE MOUSE -------------------------------
+    SENSIBILIDADE DO MOUSE
+
+    "Clique" nas setas direita e esquerda para obter  os
+valores desejados para opera‡„o com o mouse. Quanto mai-
+or o n£mero, mais lento o mouse se mover .  Ap¢s obtidos
+os  valores  desejados, "clique" sobre a palavra "Ok" ou
+pressione ENTER. Para retornar com os  valores iniciais,
+"clique" em cima da palavra 'default`.
+
+\046 DIRET¢RIO DE TRABALHO -----------------------------
+DIRET¢RIO DE TRABALHO
+
+    Esta op‡„o permite a troca de  diret¢rios onde  ir„o
+residir os  arquivos de dados  e de ¡ndices  manipulados
+pela aplica‡„o. Neste caso, se o novo diret¢rio informa-
+do contiver arquivos compat¡veis com a aplica‡„o,  estes
+ser„o utilizados e manipulados.   Esta facilidade ‚ bas-
+tante £til quando se trabalha com dados  de  reas ou em-
+presas separados.
+
+\047 GRAVA RELATORIO -----------------------------------
+GRAVA€ŽO DA RELAT¢RIO
+
+    At‚ 58  caracteres  podem  ser  usados para formar a
+frase  que identificar  este relat¢rio que acabou de ser
+emitido.  Posteriormente, se for necess rio emitir nova-
+mente este mesmo relat¢rio,  basta  selecion -lo atrav‚s
+de um menu que ser  criado.
+
+\048 SELECAO DE RELATORIO GRAVADO ----------------------
+SELE€ŽO DE RELAT¢RIO GRAVADO
+
+    A  partir deste menu pode-se selecionar qualquer re-
+lat¢rio que tenha sido gravado anteriormente.      Neste
+caso, as filtragens, ordena‡”es, n£mero de c¢pias, t¡tu-
+los,  etc., estabelecidos  no momento  da grava‡„o ser„o
+restabelecidos e considerados no relat¢rio selecionado.
+
+    Se desejar emitir um outro relat¢rio, selecione "Es-
+pecificar um novo relat¢rio".
+\049 IDENTIFICA€ŽO DA ESTA€ŽO --------------------------
+IDENTIFICA€ŽO DA ESTA€ŽO
+
+    Entre com um nome ou n£mero, at‚ 4 caracteres,  para
+identificar esta esta‡„o de trabalho no ambiente da rede
+local.     Esta pergunta est  sendo formulada em face da
+necessidade de manter-se arquivos de configura‡„o  sepa-
+rados para cada usu rio desta aplica‡„o e pelo fato  dos
+programas da aplica‡„o n„o  terem conseguido detectar  o
+nome desta esta‡„o nem foi encontrada a vari vel de  am-
+biente ESTACAO.     Se n„o desejar responder a esta per-
+gunta a cada vez que ativar a  aplica‡„o, insira  dentro
+do arquivo AUTOEXEC.BAT a linha a seguir:
+
+    SET ESTACAO=xxxx
+
+    onde xxxx ‚ o nome que identifica esta esta‡„o.
+
+    Este procedimento cria uma vari vel  no ambiente  do
+DOS, de nome ESTACAO, que ser  consultada a cada vez que
+a aplica‡„o for acionada.
+
+\050 JUSTIFICA CAMPO MEMO NA IMPRESSAO CONSULTA --------
+JUSTIFICA CAMPO MEMO
+
+    Selecione "sim" se quiser que os campos do tipo "me-
+mo" sejam ajustados nas margens esquerda e direita. Caso
+contr rio, selecione "n„o" para que o campo seja impres-
+so da maneira que foi digitado.
+
+    Observar que, durante o processo de justifica‡„o  de
+linhas, aquelas que  terminarem com  um ponto  final "."
+n„o ser„o ajustadas, sendo deixadas intactas.
+
+\051 CONFIGURANDO CORES --------------------------------
+    Para configurar um esquema de cor, proceda  conforme
+o seguinte:
+
+     . Movimente as setas  (cima, baixo, esquerda e  di-
+       reita) e observe o efeito na janela exemplo inti-
+       tulada "EXEMPLO DO ESQUEMA SELECIONADO".  Observe
+       que, as setas cima/baixo alteram a cor  da frente
+       e as setas esquerda/direita alteram a cor do fun-
+       do;
+
+     . Pressione a tecla Ù quando a cor do exemplo  es-
+       tiver de acordo com o pretendido.
+
+\052 EMISSAO DE ETIQUETAS ------------------------------
+EMISSŽO DE ETIQUETAS
+
+    Sempre que uma etiqueta ‚ selecionada, um menu  apa-
+rece, apresentando as diversas op‡”es a selecionar:
+
+    PROSSEGUIR:  deve ser selecionada quando se  desejar
+    iniciar a emiss„o da etiqueta.
+
+    SAIDA: por esta op‡„o pode-se selecionar  o disposi-
+    tivo onde ser  emitido as etiquetas.    apresentado
+    um menu  de onde  pode ser selecionada a impressora/
+    porta de sa¡da desejada. Outra op‡„o constante neste
+    menu ‚ a emiss„o de etiquetas em arquivo/v¡deo.  En-
+    tretanto, deve-se ter o  cuidado de  configurar pri-
+    meiramente a impressora para uma  eventual impress„o
+    posterior das etiquetas.
+
+    FILTRAR: deve ser selecionada quando for ness ria  a
+    sele‡„o de certo grupo de registros.
+
+    C¢PIAS:  permite que se estabele‡a  a quantidade  de
+    c¢pias (ou n£mero de vezes que a emiss„o das etique-
+    tas ser  executada).
+
+    ORDENAR: deve ser selecionada sempre que a  etiqueta
+    tenha que ser apresentada em uma ordem diferente.
+
+    ALTURA:  esta op‡„o permite  a entrada da  altura em
+    linhas da etiqueta.     O n£mero que aparece ao lado
+    corresponde … altura correntemente  configurada, que
+    poder  ser modificada.
+
+    LARGURA: esta op‡„o permite a entrada da  largura em
+    caracteres da etiqueta. O n£mero que aparece ao lado
+    corresponde … largura correntemente configurada, po-
+    dendo ser modificada.
+
+    SEPARA€ŽO: esta op‡„o permite a entrada da quantida-
+    de de caracteres de  separa‡„o entre uma  etiqueta e
+    outra, dentro do formul rio.    O n£mero que aparece
+    ao lado corresponde … separa‡„o correntemente confi-
+    gurada, podendo ser modificada.
+
+    CARREIRAS: esta op‡„o permite a entrada da quantida-
+    de de etiquetas dispostas horizontalmente no  formu-
+    l rio.    O n£mero que aparece ao lado corresponde …
+    quantidade de  carreiras correntemente  configurada,
+    podendo ser modificada.
+
+    QTDE/REG: ‚ a quantidade de etiquetas a serem emiti-
+    das por cada registro lido do arquivo.  Esta quanti-
+    dade pode ser fixa ou vari vel, de acordo com um da-
+    do (campo) do arquivo.
+\053 FONTES DE CARACTERES ------------------------------
+FONTES DE CARACTERES
+
+    Carrega fonte de caracteres para serem  mostrados em
+monitores de v¡deo do tipo VGA/SVGA, em substitui‡„o aos
+caracteres normais. Selecionado uma fonte, todas as  le-
+tras e caracteres existentes na tela atual e nas  subse-
+qentes ser„o trocadas.
+\054 ENTRADA DE DADOS - CONFIGURA€™ES DO SISTEMA--------
+ENTRADA DE CONFIGURA€™ES DO SISTEMA
+
+   Atrav‚s desta tela pode-se modificar os Configura‡”es
+do sistema. Essas configura‡”es s„o valores que s„o uti-
+lizados em diversos pontos desta aplica‡„o.
+
+    . A tecla F8 poder  conter um comando especial, para
+      alguns campos, definido pelo projetista da aplica-
+      ‡„o.
+
+    . A tecla F9, se estiver aparecendo na tela, permite
+      o acesso a outros arquivos da aplica‡„o,  se exis-
+      tirem.     Se a aplica‡„o tiver somente um arquivo
+      de dados,  este arquivo ser   mostrado na  janela.
+      Se tiver mais  de um arquivo, ser  apresentado  um
+      menu, a partir do qual o operador poder   selecio-
+      nar o arquivo desejado. O acionamento da tecla  F9
+      ativa a rotina que apresenta a tela de consulta da
+      aplica‡„o,  que oferece um grande leque de  opera-
+      ‡”es sobre os arquivos de dados.
+
+    Durante a digita‡„o de informa‡”es,  diversas teclas
+tˆm fun‡”es especiais para a "navega‡„o" do cursor,  bem
+como para acessar recursos de edi‡„o:
+
+  ^E/   move o cursor para o campo anterior
+  ^X/   move o cursor para o campo seguinte
+  ^D/->  move o cursor uma posi‡„o … direita
+  ^S/<-  move o cursor uma posi‡„o … esquerda
+  ^F     move o cursor para o in¡cio da pr¢xima palavra
+  ^A     move o cursor para o in¡cio da palavra anterior
+  ^T     apaga a palavra … direita do cursor
+  ^Y     apaga o campo a partir do cursor
+  ^V/INS liga/desliga modo de inser‡„o
+  ^U     restaura o conte£do, descartando a digita‡„o
+  ESC    abandona digita‡„o, sem gravar
+
+\055 VISUALIZACAO DE ARQUIVO NA TELA -------------------
+VISUALIZA€ŽO DE ARQUIVO NA TELA
+
+  Esta tela permite a visualiza‡„o de  um relat¢rio pre-
+viamente emitido. Caso estejam aparecendo caracteres es-
+tranhos na  tela, isto  se deve ao fato de a  impressora
+atualmente configurada ser  diferente daquela  utilizada
+no momento da cria‡„o deste arquivo.   Isto pode ser re-
+solvido  alterando-se a  configura‡„o atual  para aquela
+impressora. As teclas utilizadas para a navega‡„o s„o:
+
+ . SETAS (cima/baixo) rolam uma linha na dire‡„o corres-
+   pondente.
+
+ . SETAS (dir/esq) rolam horizontalmente o relat¢rio, de
+   10 em 10 caracteres.
+
+ . PGUP/PGDN rolam uma p gina acima ou abaixo, respecti-
+   vamente.
+
+ . CTRL+PGUP/CTRL+PGDN movem para o in¡cio e o final  do
+   arquivo, respectivamente.
+
+ . I - imprime o relat¢rio em papel. Ao  ser pressionada
+   esta tecla, ‚ solicitado um n£mero de p gina inicial,
+   a partir da qual o relat¢rio dever  ser emitido.   Um
+   detalhe importante ‚ que o relat¢rio j   est  emitido
+   em arquivo para uma determinada impressora que estava
+   configurada naquele momento. Uma nova impress„o atra-
+   v‚s deste comando n„o assumir  a impressora que  est 
+   configurada no momento, e sim aquela  que estava con-
+   figurada no momento da cria‡„o do arquivo.
+\056 TELA COMPLEMENTAR ---------------------------------
+TELA DE ENTRADA DE DADOS COMPLEMENTARES
+
+   A aplica‡„o est  aguardando a entrada de  informa‡”es
+para o prosseguimento das opera‡”es.  Digite as informa-
+‡”es solicitadas.   A tecla ALT-F1 poder  conter algumas
+informa‡”es adicionais.
+\057 MENU PARA PROSSEGUIR GRFICO ----------------------
+ELABORA€ŽO DE GRFICO
+
+   Um ou mais arquivos de dados ser„o lidos para  apurar
+os valores a serem plotados no gr fico.  As op‡”es deste
+menu s„o:
+
+   PROSSEGUIR - a leitura dos dados e a posterior plota-
+   gem do gr fico ser  efetuada.
+
+   SA¡DA - ap¢s o gr fico ter sido plotado em v¡deo,  h 
+   a possibilidade de sua impress„o em papel. Configure,
+   se necess rio, a impressora conectada ao micro, porta
+   de conex„o, etc.
+
+   RESOLU€ŽO - diz respeito ao "tamanho" que ter  o gr -
+   fico impresso em papel. Em se tratando de impressoras
+   matriciais este valor n„o ‚ utilizado. Para impresso-
+   ras de p gina (DESKJET, LASERJET, etc) a resolu‡„o  ‚
+   significativa. Existem 4 possibilidades:
+
+      75 - muito grande
+     100 - grande
+     150 - pequeno
+     300 - muito pequeno
+
+   PINTAR AREAS - permite ao usu rio optar por encher as
+    reas internas do gr fico com cores. Se ajustada para
+   SIM, essas  reas ser„o coloridas com as cores  dispo-
+   n¡veis, dependendo do tipo do monitor de v¡deo.    Se
+   ajustada para NŽO, somente os contornos dos elementos
+   do gr fico ser„o plotados.
+
+   FILTRAR - esta op‡„o permite a sele‡„o dos  registros
+   que ser„o considerados para a elabora‡„o do gr fico.
+
+   T¡TULO -  serve para alterar  o t¡tulo  do gr fico  a
+   ser plotado.
+\058 APROVEITAR ESPECIFICACOES DO GRFICO --------------
+APROVEITAR ESPECIFICA€™ES DE GRFICO
+
+   Este gr fico j  foi plotado pelo menos  uma vez e  os
+valores para plotagem j  foram apurados.   Se tiver cer-
+teza de que n„o houve inser‡„o de novos registros ou mo-
+difica‡”es nos arquivos  utilizados pelo gr fico ap¢s  a
+£ltima plotagem com rec lculo, selecione UTILIZAR as es-
+pecifica‡”es. Se os arquivos foram modificados, selecio-
+ne RECALCULAR para for‡ar a leitura dos registros e nova
+apura‡„o de valores para o gr fico.
+\059 QUANTIDADE DE ETIQUETAS A EMITIR ------------------
+QDE/REG
+
+   Informe a quantidade de etiquetas a ser  emitida para
+cada registro lido do arquivo.  Esta quantidade pode ser
+expressa atrav‚s de um n£mero ou express„o num‚rica  en-
+volvendo campo(s) do arquivo.   A tecla F10 apresenta um
+menu contendo os campos do arquivo.
+\060 ESCOLHA DA IMPRESSORA DEFAULT ---------------------
+IMPRESSORA 'DEFAULT`
+
+    Existem 5 op‡”es de menu com as impressoras mais co-
+muns do mercado.  Se nenhuma delas atender, basta  sele-
+cionar  a  6¦ op‡„o  "Outras",  informando os c¢digos de
+efeito de impress„o solicitados.
+\061 PADRAO DA IMPRESSORA ------------------------------
+PADRAO DA IMPRESSORA
+
+  Selecione o padr„o gr fico que segue a impressora  se-
+lecionada. Esta informa‡„o ser  utilizada somente na im-
+press„o de c¢digos de barras, caso exista nesta  aplica-
+‡„o.
+\000 final do help
+
